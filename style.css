@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(197, 197, 221);
+    text-align: center;
+    /* color: black; */
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(212, 230, 173);
+    font-size: 70px;
+}
+p{
+    font-size: 20px;
+    color: rgb(27, 25, 25);
+}
+.c{
+    color: rgb(255, 0, 0);
+}
+.o{
+    color: rgb(0, 51, 128);
+}
+.l{
+    color: rgb(255, 0, 89);
+}
+.pallette{
+    color: rgb(90, 68, 30);
+    font-size: 50px;
+}
+.colour{
+    width: 500px;
+    height: 90px;
+    border-radius: 10px;
+    
+}
+
+.color-print{
+    display: none;
+    text-align: center;
+    width: 50%;
+}
+.purple{
+    width: 50%;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media (max-width:500px) {
+    .purple{
+        width: 70%;
+        font-size: 30px;
+    }
+    p{
+        width: 100%;
+        font-size: 16px;
+    }
+}
